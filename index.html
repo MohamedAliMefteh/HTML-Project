@@ -4,30 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML Project</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/bc8b5c89da.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <!--this is the navigation bar -->
-    <hr />
-    <nav id="top">
-      <a href="#">Home |</a>
-      <a href="#about">About |</a>
-      <a href="#work">Work |</a>
-      <a href="#resume">Resume |</a>
-      <a href="#contact">Contact |</a>
+
+    <nav id="top" class="navbar">
+      <a href="#" class="navel">Home |</a>
+      <a href="#about" class="navel">About |</a>
+      <a href="#work" class="navel">Work |</a>
+      <a href="#resume" class="navel">Resume |</a>
+      <a href="#contact" class="navel">Contact |</a>
     </nav>
-    <hr />
     <!--this Home page is devided into four sections-->
     <!--first section "about"-->
     <section id="about">
       <h1><u>About Me: </u></h1>
-      <img src="Person_Image_Placeholder.png" alt="My Personal image" />
+      <img
+        src="Person_Image_Placeholder.png"
+        alt="My Personal image"
+        id="personimg"
+      />
       <p>
-        Hello, <i>I am Mohamed Ali Mefteh</i> and this is a brief desciption about me:
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
-        perspiciatis iure ducimus ipsa minima illum eius nisi omnis ipsum
-        dignissimos porro provident temporibus quae minus itaque tenetur enim
-        aspernatur tempore! Voluptatibus quae porro rem numquam totam officiis
-        accusantium sapiente aspernatur, suscipit aut itaque doloremque
+        Hello, <i>I am Mohamed Ali Mefteh</i> and this is a brief desciption
+        about me: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Doloremque, perspiciatis iure ducimus ipsa minima illum eius nisi omnis
+        ipsum dignissimos porro provident temporibus quae minus itaque tenetur
+        enim aspernatur tempore! Voluptatibus quae porro rem numquam totam
+        officiis accusantium sapiente aspernatur, suscipit aut itaque doloremque
         consectetur velit perferendis assumenda ratione minima! Possimus
         corporis nesciunt placeat doloribus non rem beatae iure laboriosam! Quos
         eligendi nihil, modi non voluptatum nostrum omnis velit nesciunt
@@ -36,15 +50,15 @@
         illum eos!
       </p>
     </section>
-    <hr>
-    <hr>
+
     <!--second section work-->
     <section id="work">
       <h1><u>My work: </u></h1>
       <h3>This a list of my Previous work:</h3>
       <ul>
         <li>
-          VIDEO 1:
+          <h4>VIDEO 1:</h4>
+          <br />
           <iframe
             width="560"
             height="315"
@@ -57,7 +71,8 @@
           ></iframe>
         </li>
         <li>
-          VIDEO 2:
+          <h4>VIDEO 2:</h4>
+          <br />
           <iframe
             width="560"
             height="315"
@@ -70,7 +85,8 @@
           ></iframe>
         </li>
         <li>
-          VIDEO 3:
+          <h4>VIDEO 3:</h4>
+          <br />
           <iframe
             width="560"
             height="315"
@@ -84,41 +100,54 @@
         </li>
       </ul>
     </section>
-    <hr>
-    <hr>
+
     <!--third section resume-->
     <section id="resume">
-        <h1> <u>RESUME:</u></h1>
-        <img src="cvuk-23-black.png">
+      <h1><u>RESUME:</u></h1>
+      <img src="cvuk-23-black.png" id="cvimg" alt="cv image" />
     </section>
-    <hr>
-    <hr>
+
     <!--fourth section contact-->
     <section id="contact">
-        <p> Follow me on my Socials:</p>
-        <ul>
-            <li><a href="https://instagram.com">Instagram:</a></li>
-            <li><a href="https://facebook.com">Facebook:</a></li>
-            <li><a href="https://linkedin.com">LinkedIn:</a></li>
-        </ul>
-        <form>
-            <fieldset>
-            <legend> Leave your contact here:</legend>
-            <label>Full name:</label><br>
-            <input type="text">
-            <br>
-            <label> Leave me a message here:</label> <br>
-            <textarea></textarea> <br>
-            <input type="submit" value="submit">
+      <p>Follow me on my Socials:</p>
+      <ul>
+        <li>
+          <i class="fa-brands fa-instagram"></i
+          ><a href="https://instagram.com">Instagram:</a>
+        </li>
+        <li>
+          <i class="fa-brands fa-facebook"></i
+          ><a href="https://facebook.com">Facebook:</a>
+        </li>
+        <li>
+          <i class="fa-brands fa-linkedin"></i
+          ><a href="https://linkedin.com">LinkedIn:</a>
+        </li>
+      </ul>
+      <form>
+        <fieldset>
+          <legend>Leave your contact here:</legend>
+          <label>Full name:</label><br />
+          <input type="text" />
+          <br />
+          <label> Leave me a message here:</label> <br />
+          <textarea></textarea> <br />
+          <input type="submit" value="submit" id="button" />
         </fieldset>
-        </form>
+      </form>
     </section>
-    <hr>
-    <hr>
+
     <!--page footer-->
     <footer>
-        <p> this a footer: Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus laborum consectetur commodi vitae quibusdam facilis ea voluptates pariatur, magni veritatis nesciunt voluptatum ex ducimus nulla. Inventore officiis voluptate eaque omnis?
-        Aut, asperiores. Consectetur illum numquam laudantium, dolorem perspiciatis iure enim? Beatae, eum. Ad quasi reprehenderit, odit magnam, aliquam illo enim tempore hic, vero labore corrupti suscipit voluptate dolore iure dolor?</p>
+      <p>
+        this a footer: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Necessitatibus laborum consectetur commodi vitae quibusdam facilis ea
+        voluptates pariatur, magni veritatis nesciunt voluptatum ex ducimus
+        nulla. Inventore officiis voluptate eaque omnis? Aut, asperiores.
+        Consectetur illum numquam laudantium, dolorem perspiciatis iure enim?
+        Beatae, eum. Ad quasi reprehenderit, odit magnam, aliquam illo enim
+        tempore hic, vero labore corrupti suscipit voluptate dolore iure dolor?
+      </p>
     </footer>
     <a href="#top">go to the top</a>
   </body>

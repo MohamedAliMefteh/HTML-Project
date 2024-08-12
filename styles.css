@@ -1,0 +1,71 @@
+body {
+  background-color: rgba(124, 129, 129, 0.288);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+nav {
+  display: inline;
+  background-color: black;
+  margin-left: 35%;
+}
+.navel {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+section {
+  margin-left: 3vw;
+  margin-right: 3vw;
+  border-color: black;
+  border-style: solid;
+  background-color: rgba(149, 158, 158, 0.146);
+  border-radius: 20px;
+}
+h1 {
+  margin-top: 100px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+}
+p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  text-align: center;
+}
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+#personimg {
+  margin-left: 40%;
+}
+#cvimg {
+  width: 70vw;
+  margin-left: 10%;
+}
+li {
+  text-align: center;
+  list-style-type: none;
+}
+h4 {
+  width: 10%;
+  background-color: antiquewhite;
+  margin-left: 45%;
+}
+form {
+  text-align: center;
+}
+fieldset {
+  border-radius: 20px;
+}
+#button {
+  border: none;
+  background-color: green;
+  border-radius: 20px;
+}
